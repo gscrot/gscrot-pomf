@@ -42,6 +42,6 @@ public class Pomf {
 
 		String str = EntityUtils.toString(response.getEntity());
 
-		return str;
+		return str.replace("http://", "https://");
 	}
 }
